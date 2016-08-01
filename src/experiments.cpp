@@ -187,33 +187,35 @@ void test_road_newtwork_data()
     
     for (int k = 0; k < 4; ++k)
     {
-        cout << "Intiailizing training of history data sets: \t(This may take a while. Please be patient)\n";
-        trainDataSet(dir, cluster_sizes[k]);
-        cout << "Training of history data sets completed. \n";
-        for (size_t i = (size_t)0; i < (size_t)43; ++i)
-        {
-            cout << "\n\nthe value of i is : " << i << endl << endl;
-            start_time_computation = 0;
-
-            dataStore_test.clear();
-            dataStore_test.push_back(dataStoreHash[i]);
+        for (int j = 0; i < 10; ++i){
+            cout << "Intiailizing training of history data sets: \t(This may take a while. Please be patient)\n";
             trainDataSet(dir, cluster_sizes[k]);
+            cout << "Training of history data sets completed. \n";
+            for (size_t i = (size_t)0; i < (size_t)43; ++i)
+            {
+                cout << "\n\nthe value of i is : " << i << endl << endl;
+                start_time_computation = 0;
 
-            cout << "\n\n############################################################################################\n";
-            cout << "now running kmeans with Random Intiailizing :";
-            cout << "\n############################################################################################\n\n";
-            run_kmeans_random_no_lables(dataStore_test, 240);
-            
-            cout << "\n\n############################################################################################\n";
-            cout << "now running kmeans with kmeans ++ Intiailizing :";
-            cout << "\n############################################################################################\n\n";
-            run_kmeans_no_lables(dataStore_test, cluster_sizes[k]);
-            
-            cout << "\n\n############################################################################################\n";
-            cout << "now running kmeans with custom labels :";
-            cout << "\n############################################################################################\n\n";
-            start_time_computation = 1;
-            run_kmeans_custom_lables(dataStore_test, cluster_sizes[k]);
+                dataStore_test.clear();
+                dataStore_test.push_back(dataStoreHash[i]);
+                trainDataSet(dir, cluster_sizes[k]);
+
+                cout << "\n\n############################################################################################\n";
+                cout << "now running kmeans with Random Intiailizing :";
+                cout << "\n############################################################################################\n\n";
+                run_kmeans_random_no_lables(dataStore_test, 240);
+                
+                cout << "\n\n############################################################################################\n";
+                cout << "now running kmeans with kmeans ++ Intiailizing :";
+                cout << "\n############################################################################################\n\n";
+                run_kmeans_no_lables(dataStore_test, cluster_sizes[k]);
+                
+                cout << "\n\n############################################################################################\n";
+                cout << "now running kmeans with custom labels :";
+                cout << "\n############################################################################################\n\n";
+                start_time_computation = 1;
+                run_kmeans_custom_lables(dataStore_test, cluster_sizes[k]);
+            }
         }
     }
 }
@@ -229,32 +231,34 @@ void test_kellog_data()
     
     for (int k = 0; k < 4; ++k)
     {
-        cout << "Intiailizing training of history data sets: \t(This may take a while. Please be patient)\n";
-        trainDataSet(dir, cluster_sizes[k]);
-        cout << "Training of history data sets completed. \n";
-        for (size_t i = (size_t)0; i < (size_t)19; ++i)
-        {
-            start_time_computation = 0;
-
-            dataStore_test.clear();
-            dataStore_test.push_back(dataStoreHash[i]);
+        for (int j = 10; i < 20; ++i){
+            cout << "Intiailizing training of history data sets: \t(This may take a while. Please be patient)\n";
             trainDataSet(dir, cluster_sizes[k]);
+            cout << "Training of history data sets completed. \n";
+            for (size_t i = (size_t)0; i < (size_t)19; ++i)
+            {
+                start_time_computation = 0;
 
-            cout << "\n\n############################################################################################\n";
-            cout << "now running kmeans with Random Intiailizing :";
-            cout << "\n############################################################################################\n\n";
-            run_kmeans_random_no_lables(dataStore_test, 240);
-            
-            cout << "\n\n############################################################################################\n";
-            cout << "now running kmeans with kmeans ++ Intiailizing :";
-            cout << "\n############################################################################################\n\n";
-            run_kmeans_no_lables(dataStore_test, cluster_sizes[k]);
-            
-            cout << "\n\n############################################################################################\n";
-            cout << "now running kmeans with custom labels :";
-            cout << "\n############################################################################################\n\n";
-            start_time_computation = 1;
-            run_kmeans_custom_lables(dataStore_test, cluster_sizes[k]);
+                dataStore_test.clear();
+                dataStore_test.push_back(dataStoreHash[i]);
+                trainDataSet(dir, cluster_sizes[k]);
+
+                cout << "\n\n############################################################################################\n";
+                cout << "now running kmeans with Random Intiailizing :";
+                cout << "\n############################################################################################\n\n";
+                run_kmeans_random_no_lables(dataStore_test, 240);
+                
+                cout << "\n\n############################################################################################\n";
+                cout << "now running kmeans with kmeans ++ Intiailizing :";
+                cout << "\n############################################################################################\n\n";
+                run_kmeans_no_lables(dataStore_test, cluster_sizes[k]);
+                
+                cout << "\n\n############################################################################################\n";
+                cout << "now running kmeans with custom labels :";
+                cout << "\n############################################################################################\n\n";
+                start_time_computation = 1;
+                run_kmeans_custom_lables(dataStore_test, cluster_sizes[k]);
+            }
         }
     }
 }
@@ -270,33 +274,34 @@ void test_gas_source_data()
     
     for (int k = 0; k < 4; ++k)
     {
-        cout << "Intiailizing training of history data sets: \t(This may take a while. Please be patient)\n";
-        trainDataSet(dir, cluster_sizes[k]);
-        cout << "Training of history data sets completed. \n";
-        for (size_t i = (size_t)0; i < (size_t)35; ++i)
-        {
-            start_time_computation = 0;
+        for (int j = 20; i < 30; ++i){
+            cout << "Intiailizing training of history data sets: \t(This may take a while. Please be patient)\n";
+            trainDataSet(dir, cluster_sizes[k]);
+            cout << "Training of history data sets completed. \n";
+            for (size_t i = (size_t)0; i < (size_t)35; ++i)
+            {
+                start_time_computation = 0;
 
-            dataStore_test.clear();
-            dataStore_test.push_back(dataStoreHash[i]);
-            // trainDataSet(dir, cluster_sizes[k]);
+                dataStore_test.clear();
+                dataStore_test.push_back(dataStoreHash[i]);
+                // trainDataSet(dir, cluster_sizes[k]);
 
-            cout << "\n\n############################################################################################\n";
-            cout << "now running kmeans with Random Intiailizing :";
-            cout << "\n############################################################################################\n\n";
-            run_kmeans_random_no_lables(dataStore_test, cluster_sizes[k]);
-            
-            cout << "\n\n############################################################################################\n";
-            cout << "now running kmeans with kmeans ++ Intiailizing :";
-            cout << "\n############################################################################################\n\n";
-            run_kmeans_no_lables(dataStore_test, cluster_sizes[k]);
-            
-            cout << "\n\n############################################################################################\n";
-            cout << "now running kmeans with custom labels :";
-            cout << "\n############################################################################################\n\n";
-            start_time_computation = 1;
-            sleep(2);
-            run_kmeans_custom_lables(dataStore_test, cluster_sizes[k]);
+                cout << "\n\n############################################################################################\n";
+                cout << "now running kmeans with Random Intiailizing :";
+                cout << "\n############################################################################################\n\n";
+                run_kmeans_random_no_lables(dataStore_test, cluster_sizes[k]);
+                
+                cout << "\n\n############################################################################################\n";
+                cout << "now running kmeans with kmeans ++ Intiailizing :";
+                cout << "\n############################################################################################\n\n";
+                run_kmeans_no_lables(dataStore_test, cluster_sizes[k]);
+                
+                cout << "\n\n############################################################################################\n";
+                cout << "now running kmeans with custom labels :";
+                cout << "\n############################################################################################\n\n";
+                start_time_computation = 1;
+                run_kmeans_custom_lables(dataStore_test, cluster_sizes[k]);
+            }
         }
     }
 }
@@ -311,63 +316,178 @@ void test_nn_data()
     
     for (int k = 0; k < 6; ++k)
     {
-        cout << "Intiailizing training of history data sets: \t(This may take a while. Please be patient)\n";
-        trainDataSet(dir, cluster_sizes[k]);
-        cout << "Training of history data sets completed. \n";
-        for (size_t i = (size_t)0; i < (size_t)35; ++i)
-        {
-            start_time_computation = 0;
-
-            dataStore_test.clear();
-            dataStore_test.push_back(dataStoreHash[i]);
+        for (int j = 30; i < 40; ++i){
+            cout << "Intiailizing training of history data sets: \t(This may take a while. Please be patient)\n";
             trainDataSet(dir, cluster_sizes[k]);
+            cout << "Training of history data sets completed. \n";
+            for (size_t i = (size_t)0; i < (size_t)35; ++i)
+            {
+                start_time_computation = 0;
 
-            cout << "\n\n############################################################################################\n";
-            cout << "now running kmeans with Random Intiailizing :";
-            cout << "\n############################################################################################\n\n";
-            run_kmeans_random_no_lables(dataStore_test, cluster_sizes[k]);
-            
-            cout << "\n\n############################################################################################\n";
-            cout << "now running kmeans with kmeans ++ Intiailizing :";
-            cout << "\n############################################################################################\n\n";
-            run_kmeans_no_lables(dataStore_test, cluster_sizes[k]);
-            
-            cout << "\n\n############################################################################################\n";
-            cout << "now running kmeans with custom labels :";
-            cout << "\n############################################################################################\n\n";
-            start_time_computation = 1;
-            run_kmeans_custom_lables(dataStore_test, cluster_sizes[k]);
+                dataStore_test.clear();
+                dataStore_test.push_back(dataStoreHash[i]);
+                trainDataSet(dir, cluster_sizes[k]);
+
+                cout << "\n\n############################################################################################\n";
+                cout << "now running kmeans with Random Intiailizing :";
+                cout << "\n############################################################################################\n\n";
+                run_kmeans_random_no_lables(dataStore_test, cluster_sizes[k]);
+                
+                cout << "\n\n############################################################################################\n";
+                cout << "now running kmeans with kmeans ++ Intiailizing :";
+                cout << "\n############################################################################################\n\n";
+                run_kmeans_no_lables(dataStore_test, cluster_sizes[k]);
+                
+                cout << "\n\n############################################################################################\n";
+                cout << "now running kmeans with custom labels :";
+                cout << "\n############################################################################################\n\n";
+                start_time_computation = 1;
+                run_kmeans_custom_lables(dataStore_test, cluster_sizes[k]);
+            }
         }
     }
 }
 
 
+void test_tiny_nn_data()
+{
+    std::vector<dataDb *> dataStore_test;
+
+    const string dir = "../full_datasets/tiny2.nndata_shuffle";
+    const string test_dir = "../full_datasets/tiny2.nndata_shuffle";
+    int cluster_sizes[] = {80, 120, 240, 360, 480, 600};
+
+    for (int k = 0; k < 6; ++k)
+    {
+        trainDataSet(dir, cluster_sizes[k]);
+        for (int j = 40; j < 50; ++j)
+        {
+            cout << "Intiailizing training of history data sets: \t(This may take a while. Please be patient)\n";
+            cout << "Training of history data sets completed. \n";
+            for (size_t i = (size_t)0; i < (size_t)20; ++i)
+            {
+                start_time_computation = 0;
+
+                dataStore_test.clear();
+                dataStore_test.push_back(dataStoreHash[i]);
+                trainDataSet(dir, cluster_sizes[k]);
+
+                cout << "\n\n############################################################################################\n";
+                cout << "now running kmeans with Random Intiailizing :";
+                cout << "\n############################################################################################\n\n";
+                run_kmeans_random_no_lables(dataStore_test, cluster_sizes[k], j);
+
+                cout << "\n\n############################################################################################\n";
+                cout << "now running kmeans with kmeans ++ Intiailizing :";
+                cout << "\n############################################################################################\n\n";
+                run_kmeans_no_lables(dataStore_test, cluster_sizes[k], j);
+
+                cout << "\n\n############################################################################################\n";
+                cout << "now running kmeans with custom labels :";
+                cout << "\n############################################################################################\n\n";
+                start_time_computation = 1;
+                run_kmeans_custom_lables(dataStore_test, cluster_sizes[k], j);
+            }
+        }
+    }
+}
+
+void test_uk_bech_nn_data()
+{
+    std::vector<dataDb *> dataStore_test;
+
+    const string dir = "../full_datasets/uk_bench_nn_data";
+    const string test_dir = "../full_datasets/uk_bench_nn_data";
+    int cluster_sizes[] = {80, 120, 240, 360, 480, 600};
+
+    for (int k = 0; k < 6; ++k)
+    {
+        trainDataSet(dir, cluster_sizes[k]);
+        for (int j = 50; j < 60; ++j)
+        {
+            cout << "Intiailizing training of history data sets: \t(This may take a while. Please be patient)\n";
+            cout << "Training of history data sets completed. \n";
+            for (size_t i = (size_t)0; i < (size_t)20; ++i)
+            {
+                start_time_computation = 0;
+
+                dataStore_test.clear();
+                dataStore_test.push_back(dataStoreHash[i]);
+                trainDataSet(dir, cluster_sizes[k]);
+
+                cout << "\n\n############################################################################################\n";
+                cout << "now running kmeans with Random Intiailizing :";
+                cout << "\n############################################################################################\n\n";
+                run_kmeans_random_no_lables(dataStore_test, cluster_sizes[k], j);
+
+                cout << "\n\n############################################################################################\n";
+                cout << "now running kmeans with kmeans ++ Intiailizing :";
+                cout << "\n############################################################################################\n\n";
+                run_kmeans_no_lables(dataStore_test, cluster_sizes[k], j);
+
+                cout << "\n\n############################################################################################\n";
+                cout << "now running kmeans with custom labels :";
+                cout << "\n############################################################################################\n\n";
+                start_time_computation = 1;
+                run_kmeans_custom_lables(dataStore_test, cluster_sizes[k], j);
+            }
+        }
+    }
+}
+
+void test_notredame_nn_data()
+{
+    std::vector<dataDb *> dataStore_test;
+
+    const string dir = "../full_datasets/notredame";
+    const string test_dir = "../full_datasets/notredame";
+    int cluster_sizes[] = {40, 80, 120, 240};
+
+    for (int k = 0; k < 4; ++k)
+    {
+        trainDataSet(dir, cluster_sizes[k]);
+        for (int j = 60; j < 70; ++j)
+        {
+            cout << "Intiailizing training of history data sets: \t(This may take a while. Please be patient)\n";
+            cout << "Training of history data sets completed. \n";
+            for (size_t i = (size_t)0; i < (size_t)20; ++i)
+            {
+                start_time_computation = 0;
+
+                dataStore_test.clear();
+                dataStore_test.push_back(dataStoreHash[i]);
+                trainDataSet(dir, cluster_sizes[k]);
+
+                cout << "\n\n############################################################################################\n";
+                cout << "now running kmeans with Random Intiailizing :";
+                cout << "\n############################################################################################\n\n";
+                run_kmeans_random_no_lables(dataStore_test, cluster_sizes[k], j);
+
+                cout << "\n\n############################################################################################\n";
+                cout << "now running kmeans with kmeans ++ Intiailizing :";
+                cout << "\n############################################################################################\n\n";
+                run_kmeans_no_lables(dataStore_test, cluster_sizes[k], j);
+                cout << "\n\n############################################################################################\n";
+                cout << "now running kmeans with custom labels :";
+                cout << "\n############################################################################################\n\n";
+                start_time_computation = 1;
+                sleep(2);
+                run_kmeans_custom_lables(dataStore_test, cluster_sizes[k], j);
+            }
+        }
+    }
+}
+
 int main(int argc, char const *argv[])
 {
-    cout << "\n\n##########################################################################################################\n\n";
-    cout << "Please use one of the following choices: \n";
-    cout << "\tEnter 1 to run kmeans algorithms on road network Data: \n";
-    cout << "\tEnter 2 to run kmeans algorithms on kellog Data: \n";
-    cout << "\tEnter 3 to run kmeans algorithms on gas sensor Data: \n";
-    cout << "\n\n##########################################################################################################\n\n";
-    int choice = 0;
-    cout << "Please enter your choice: \t";
-    cin >>  choice;
 
-    size_t data_store_id;
-    if(choice == 1){
-        test_road_newtwork_data();
-        test_kellog_data();
-    }
-    else if(choice == 2)
-        test_kellog_data();
-    else if(choice == 3)
-        test_gas_source_data();
-    else
-    {
-        cout << "Wrong Option Entered: Exiting!!!" << endl;
-    }
-
+    test_kellog_data();
+    test_road_newtwork_data();
+    test_gas_source_data();
+    test_nn_data();
+    test_tiny_nn_data();
+    test_uk_bech_nn_data();
+    test_notredame_nn_data();
 
     return 0;
 }
