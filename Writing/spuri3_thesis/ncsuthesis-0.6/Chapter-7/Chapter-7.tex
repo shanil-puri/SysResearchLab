@@ -1,0 +1,10 @@
+\chapter{Conclusion}
+\label{chap-seven}
+
+In conclusion we would like to say that probabilistic metric for data-set comparison is
+one of the best metrics for this purpose. It tells us the exact degree to which we can
+expect the computation reuse to be successful for any historical data-set. It also represents a generic way of ranking data sets based on similarity and may have many more applications than just in history-reuse computation. We have also seen based on the above
+results that the above mentioned algorithm is handy for all data sets irrespective if the dimensionality, cardinality or cluster count for the data set.
+Though the algorithm shows speedups for all data sets for all cluster indexes we see a substantially higher speedup for larger cluster counts as this results in a speedup in both, the run time of the algorithm as well as the initialization step for the algorithm. The initialization is sped up considerably by our approach and this plays a vital part in the final speedup for larger cluster counts as initialization becomes a significant amount of the run time for both the \textit{Random K-Means} and the \textit{K-Means++} algorithm.
+Since this can be used as a drop in replacement for any initialization method, it can be used with any flavour of the original K-Means Algorithm. It preserves the semantic of the original K-means. These appealing properties, plus its simplicity, make it a
+practical replacement of the standard K-means as long as viable historical data sets are available for reuse.

@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+
+\bibitem{einstein1935particle}
+A.~Einstein and N.~Rosen.
+\newblock {The particle problem in the general theory of relativity}.
+\newblock {\em Physical Review}, 48(1):73--77, 1935.
+
+\bibitem{golub1996matrix}
+G.H. Golub and C.F. Van~Loan.
+\newblock {\em {Matrix computations}}.
+\newblock Johns Hopkins Univ Pr, 1996.
+
+\bibitem{larsen1974asymptotic}
+E.W. Larsen and J.B. Keller.
+\newblock {Asymptotic solution of neutron transport problems for small mean
+  free paths}.
+\newblock {\em Journal of Mathematical Physics}, 15:75, 1974.
+
+\end{thebibliography}

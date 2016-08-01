@@ -1,0 +1,1033 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{kmeans++}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Arthur}{A.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vassilvitskii}{V.}%
+     {Sergei}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{2}{%
+    {Society for Industrial}%
+    {Applied Mathematics}%
+  }
+  \strng{namehash}{ADVS1}
+  \strng{fullhash}{ADVS1}
+  \field{labelalpha}{AV07}
+  \field{sortinit}{A}
+  \field{booktitle}{Proceedings of the Eighteenth Annual ACM-SIAM Symposium on
+  Discrete Algorithms}
+  \field{isbn}{978-0-898716-24-5}
+  \field{pages}{1027\bibrangedash 1035}
+  \field{series}{SODA '07}
+  \field{title}{K-means++: The Advantages of Careful Seeding}
+  \verb{url}
+  \verb http://dl.acm.org/citation.cfm?id=1283383.1283494
+  \endverb
+  \list{location}{1}{%
+    {New Orleans, Louisiana}%
+  }
+  \field{year}{2007}
+  \warn{\item Can't use 'location' + 'address'}
+\endentry
+
+\entry{kmens_parellel}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Bahmani}{B.}%
+     {Bahman}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Moseley}{M.}%
+     {Benjamin}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vattani}{V.}%
+     {Andrea}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kumar}{K.}%
+     {Ravi}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vassilvitskii}{V.}%
+     {Sergei}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {VLDB Endowment}%
+  }
+  \strng{namehash}{BB+1}
+  \strng{fullhash}{BBMBVAKRVS1}
+  \field{labelalpha}{Bah12}
+  \field{sortinit}{B}
+  \verb{doi}
+  \verb 10.14778/2180912.2180915
+  \endverb
+  \field{issn}{2150-8097}
+  \field{number}{7}
+  \field{pages}{622\bibrangedash 633}
+  \field{title}{Scalable K-means++}
+  \verb{url}
+  \verb http://dx.doi.org/10.14778/2180912.2180915
+  \endverb
+  \field{volume}{5}
+  \field{journaltitle}{Proc. VLDB Endow.}
+  \field{month}{03}
+  \field{year}{2012}
+\endentry
+
+\entry{load_reuse_proceeding}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Bod\'{\i}k}{B.}%
+     {Rastislav}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gupta}{G.}%
+     {Rajiv}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Soffa}{S.}%
+     {Mary~Lou}{M.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM}%
+  }
+  \keyw{data-flow analysis, profile-guided optimizations, program
+  representations, register promotion}
+  \strng{namehash}{BR+1}
+  \strng{fullhash}{BRGRSML1}
+  \field{labelalpha}{Bod99}
+  \field{extraalpha}{1}
+  \field{sortinit}{B}
+  \field{booktitle}{Proceedings of the ACM SIGPLAN 1999 Conference on
+  Programming Language Design and Implementation}
+  \verb{doi}
+  \verb 10.1145/301618.301643
+  \endverb
+  \field{isbn}{1-58113-094-5}
+  \field{pages}{64\bibrangedash 76}
+  \field{series}{PLDI '99}
+  \field{title}{Load-reuse Analysis: Design and Evaluation}
+  \verb{url}
+  \verb http://doi.acm.org/10.1145/301618.301643
+  \endverb
+  \list{location}{1}{%
+    {Atlanta, Georgia, USA}%
+  }
+  \field{year}{1999}
+  \warn{\item Can't use 'location' + 'address'}
+\endentry
+
+\entry{load_reuse_proceeding_article}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Bod\'{\i}k}{B.}%
+     {Rastislav}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gupta}{G.}%
+     {Rajiv}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Soffa}{S.}%
+     {Mary~Lou}{M.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM}%
+  }
+  \keyw{data-flow analysis, profile-guided optimizations, program
+  representations, register promotion}
+  \strng{namehash}{BR+1}
+  \strng{fullhash}{BRGRSML1}
+  \field{labelalpha}{Bod99}
+  \field{extraalpha}{2}
+  \field{sortinit}{B}
+  \verb{doi}
+  \verb 10.1145/301631.301643
+  \endverb
+  \field{issn}{0362-1340}
+  \field{number}{5}
+  \field{pages}{64\bibrangedash 76}
+  \field{title}{Load-reuse Analysis: Design and Evaluation}
+  \verb{url}
+  \verb http://doi.acm.org/10.1145/301631.301643
+  \endverb
+  \field{volume}{34}
+  \list{location}{1}{%
+    {New York, NY, USA}%
+  }
+  \field{journaltitle}{SIGPLAN Not.}
+  \field{month}{05}
+  \field{year}{1999}
+\endentry
+
+\entry{opencv_library}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bradski}{B.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{bibtex-import}
+  \strng{namehash}{BG1}
+  \strng{fullhash}{BG1}
+  \field{labelalpha}{Bra00}
+  \field{sortinit}{B}
+  \field{title}{OpenCV Library}
+  \field{journaltitle}{Dr. Dobb's Journal of Software Tools}
+  \field{year}{2000}
+\endentry
+
+\entry{approx_meth}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Czumaj}{C.}%
+     {Artur}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sohler}{S.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{CASC1}
+  \strng{fullhash}{CASC1}
+  \field{labelalpha}{CS07}
+  \field{extraalpha}{1}
+  \field{sortinit}{C}
+  \field{number}{1-2}
+  \field{pages}{226\bibrangedash 256}
+  \field{title}{Sublinear-time approximation algorithms for clustering via
+  random sampling}
+  \field{volume}{30}
+  \field{journaltitle}{Random Structures \& Algorithms}
+  \field{year}{2007}
+\endentry
+
+\entry{Czumaj}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Czumaj}{C.}%
+     {Artur}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sohler}{S.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {John Wiley \& Sons, Inc.}%
+  }
+  \keyw{clustering, k-means, k-median, min-sum clustering, random sampling}
+  \strng{namehash}{CASC1}
+  \strng{fullhash}{CASC1}
+  \field{labelalpha}{CS07}
+  \field{extraalpha}{2}
+  \field{sortinit}{C}
+  \verb{doi}
+  \verb 10.1002/rsa.v30:1/2
+  \endverb
+  \field{issn}{1042-9832}
+  \field{number}{1-2}
+  \field{pages}{257\bibrangedash 286}
+  \field{title}{Sublinear-time Approximation Algorithms for Clustering via
+  Random Sampling}
+  \verb{url}
+  \verb http://dx.doi.org/10.1002/rsa.v30:1/2
+  \endverb
+  \field{volume}{30}
+  \list{location}{1}{%
+    {New York, NY, USA}%
+  }
+  \field{journaltitle}{Random Struct. Algorithms}
+  \field{month}{01}
+  \field{year}{2007}
+\endentry
+
+\entry{non_uniform_hist_1}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Devroye}{D.}%
+     {Luc}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM}%
+  }
+  \strng{namehash}{DL1}
+  \strng{fullhash}{DL1}
+  \field{labelalpha}{Dev86}
+  \field{sortinit}{D}
+  \field{booktitle}{Proceedings of the 18th Conference on Winter Simulation}
+  \verb{doi}
+  \verb 10.1145/318242.318443
+  \endverb
+  \field{isbn}{0-911801-11-1}
+  \field{pages}{260\bibrangedash 265}
+  \field{series}{WSC '86}
+  \field{title}{Sample-based Non-uniform Random Variate Generation}
+  \verb{url}
+  \verb http://doi.acm.org/10.1145/318242.318443
+  \endverb
+  \list{location}{1}{%
+    {Washington, D.C., USA}%
+  }
+  \field{year}{1986}
+  \warn{\item Can't use 'location' + 'address'}
+\endentry
+
+\entry{yinyang_kmeans}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Ding}{D.}%
+     {Yufei}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhao}{Z.}%
+     {Yue}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shen}{S.}%
+     {Xipeng}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Musuvathi}{M.}%
+     {Madanlal}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mytkowicz}{M.}%
+     {Todd}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Blei}{B.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bach}{B.}%
+     {Francis}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{2}{%
+    {JMLR Workshop}%
+    {Conference Proceedings}%
+  }
+  \strng{namehash}{DY+1}
+  \strng{fullhash}{DYZYSXMMMT1}
+  \field{labelalpha}{Din15}
+  \field{sortinit}{D}
+  \field{booktitle}{Proceedings of the 32nd International Conference on Machine
+  Learning (ICML-15)}
+  \field{pages}{579\bibrangedash 587}
+  \field{title}{Yinyang K-Means: A Drop-In Replacement of the Classic K-Means
+  with Consistent Speedup}
+  \verb{url}
+  \verb http://jmlr.org/proceedings/papers/v37/ding15.pdf
+  \endverb
+  \field{year}{2015}
+\endentry
+
+\entry{drake}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Drake}{D.}%
+     {Jonathan}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hamerly}{H.}%
+     {Greg}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DJHG1}
+  \strng{fullhash}{DJHG1}
+  \field{labelalpha}{DH}
+  \field{sortinit}{D}
+  \field{booktitle}{in 5th NIPS Workshop on Optimization for Machine Learning.
+  Dec 8th, 2012. Lake Tahoe}
+  \field{title}{Accelerated k-means with adaptive distance bounds}
+\endentry
+
+\entry{Elkan03usingthe}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Elkan}{E.}%
+     {Charles}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{EC1}
+  \strng{fullhash}{EC1}
+  \field{labelalpha}{Elk03}
+  \field{sortinit}{E}
+  \field{title}{Using the Triangle Inequality to Accelerate k-Means}
+  \field{year}{2003}
+\endentry
+
+\entry{Guha:1998:CEC:276305.276312}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Guha}{G.}%
+     {Sudipto}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rastogi}{R.}%
+     {Rajeev}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shim}{S.}%
+     {Kyuseok}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM}%
+  }
+  \strng{namehash}{GS+1}
+  \strng{fullhash}{GSRRSK1}
+  \field{labelalpha}{Guh98}
+  \field{sortinit}{G}
+  \verb{doi}
+  \verb 10.1145/276305.276312
+  \endverb
+  \field{issn}{0163-5808}
+  \field{number}{2}
+  \field{pages}{73\bibrangedash 84}
+  \field{title}{CURE: An Efficient Clustering Algorithm for Large Databases}
+  \verb{url}
+  \verb http://doi.acm.org/10.1145/276305.276312
+  \endverb
+  \field{volume}{27}
+  \list{location}{1}{%
+    {New York, NY, USA}%
+  }
+  \field{journaltitle}{SIGMOD Rec.}
+  \field{month}{06}
+  \field{year}{1998}
+\endentry
+
+\entry{value_reuse_extended}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Huang}{H.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lilja}{L.}%
+     {D.~J.}{D.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{optimising compilers;program testing;software performance
+  evaluation;SPEC benchmark programs;block history buffer;compiler
+  optimizations;compiler support;function inlining;instruction
+  level;instruction reuse;processor performance;simulation results;speculative
+  execution;value prediction;Hardware;History;Optimizing compilers;Program
+  processors;Registers;Testing}
+  \strng{namehash}{HJLDJ1}
+  \strng{fullhash}{HJLDJ1}
+  \field{labelalpha}{HL00}
+  \field{sortinit}{H}
+  \verb{doi}
+  \verb 10.1109/12.844346
+  \endverb
+  \field{issn}{0018-9340}
+  \field{number}{4}
+  \field{pages}{331\bibrangedash 347}
+  \field{title}{Extending value reuse to basic blocks with compiler support}
+  \field{volume}{49}
+  \field{journaltitle}{IEEE Transactions on Computers}
+  \field{year}{2000}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{locality_block_reuse}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Huang}{H.}%
+     {Jian}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lilja}{L.}%
+     {D.~J.}{D.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{buffer storage;instruction sets;parallel architectures;parallel
+  programming;program compilers;software reusability;storage allocation;-O2
+  optimization level;4-way issue superscalar processor;GCC compiler;SPEC
+  benchmark programs;SPEC programs;aggressive speculation;basic block
+  reuse;basic block value locality;block history buffer;block reuse;coarser
+  granularity;compiler support;execution time;instruction level;live register
+  outputs;memory inputs;memory outputs;performance benefits;register
+  inputs;value prediction;Accuracy;Computer aided instruction;Computer
+  science;Ear;History;Optimizing compilers;Program
+  processors;Registers;Testing}
+  \strng{namehash}{HJLDJ2}
+  \strng{fullhash}{HJLDJ2}
+  \field{labelalpha}{HL99}
+  \field{sortinit}{H}
+  \field{booktitle}{High-Performance Computer Architecture, 1999. Proceedings.
+  Fifth International Symposium On}
+  \verb{doi}
+  \verb 10.1109/HPCA.1999.744342
+  \endverb
+  \field{pages}{106\bibrangedash 114}
+  \field{title}{Exploiting basic block value locality with block reuse}
+  \field{year}{1999}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Kanungo:2002:EKC:628329.628801}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Kanungo}{K.}%
+     {Tapas}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mount}{M.}%
+     {David~M.}{D.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Netanyahu}{N.}%
+     {Nathan~S.}{N.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Piatko}{P.}%
+     {Christine~D.}{C.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Silverman}{S.}%
+     {Ruth}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wu}{W.}%
+     {Angela~Y.}{A.~Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE Computer Society}%
+  }
+  \keyw{Pattern recognition, machine learning, data mining, k-means clustering,
+  nearest-neighbor searching, k-d tree, computational geometry, knowledge
+  discovery.}
+  \strng{namehash}{KT+1}
+  \strng{fullhash}{KTMDMNNSPCDSRWAY1}
+  \field{labelalpha}{Kan02}
+  \field{sortinit}{K}
+  \verb{doi}
+  \verb 10.1109/TPAMI.2002.1017616
+  \endverb
+  \field{issn}{0162-8828}
+  \field{number}{7}
+  \field{pages}{881\bibrangedash 892}
+  \field{title}{An Efficient k-Means Clustering Algorithm: Analysis and
+  Implementation}
+  \verb{url}
+  \verb http://dx.doi.org/10.1109/TPAMI.2002.1017616
+  \endverb
+  \field{volume}{24}
+  \list{location}{1}{%
+    {Washington, DC, USA}%
+  }
+  \field{journaltitle}{IEEE Trans. Pattern Anal. Mach. Intell.}
+  \field{month}{07}
+  \field{year}{2002}
+\endentry
+
+\entry{uci_machine_repo}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lichman}{L.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LM1}
+  \strng{fullhash}{LM1}
+  \field{labelalpha}{Lic13}
+  \field{sortinit}{L}
+  \field{title}{{UCI} Machine Learning Repository}
+  \verb{url}
+  \verb http://archive.ics.uci.edu/ml
+  \endverb
+  \list{institution}{2}{%
+    {University of California, Irvine, School of Information}%
+    {Computer Sciences}%
+  }
+  \field{year}{2013}
+\endentry
+
+\entry{kmeans_orig}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lloyd}{L.}%
+     {Stuart~P.}{S.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LSP1}
+  \strng{fullhash}{LSP1}
+  \field{labelalpha}{Llo82}
+  \field{sortinit}{L}
+  \field{number}{2}
+  \field{pages}{129–137}
+  \field{title}{{Least squares quantization in PCM}}
+  \field{volume}{28}
+  \field{journaltitle}{IEEE Transactions on Information Theory}
+  \field{year}{1982}
+\endentry
+
+\entry{Pelleg:1999:AEK:312129.312248}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Pelleg}{P.}%
+     {Dan}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Moore}{M.}%
+     {Andrew}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM}%
+  }
+  \strng{namehash}{PDMA1}
+  \strng{fullhash}{PDMA1}
+  \field{labelalpha}{PM99}
+  \field{sortinit}{P}
+  \field{booktitle}{Proceedings of the Fifth ACM SIGKDD International
+  Conference on Knowledge Discovery and Data Mining}
+  \verb{doi}
+  \verb 10.1145/312129.312248
+  \endverb
+  \field{isbn}{1-58113-143-7}
+  \field{pages}{277\bibrangedash 281}
+  \field{series}{KDD '99}
+  \field{title}{Accelerating Exact K-means Algorithms with Geometric Reasoning}
+  \verb{url}
+  \verb http://doi.acm.org/10.1145/312129.312248
+  \endverb
+  \list{location}{1}{%
+    {San Diego, California, USA}%
+  }
+  \field{year}{1999}
+  \warn{\item Can't use 'location' + 'address'}
+\endentry
+
+\entry{4270197}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Philbin}{P.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chum}{C.}%
+     {O.}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Isard}{I.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sivic}{S.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zisserman}{Z.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{image matching;image retrieval;quantisation (signal);Web-scale image
+  corpora;fast spatial matching;image-feature vocabulary;large
+  vocabularies;large-scale object retrieval system;object
+  retrieval;quantization method;query image;query object;query
+  performance;scalable methods;spatial verification stage;Humans;Image
+  retrieval;Information filtering;Information filters;Information
+  retrieval;Large-scale systems;Quantization;Scalability;Silicon;Vocabulary}
+  \strng{namehash}{PJ+1}
+  \strng{fullhash}{PJCOIMSJZA1}
+  \field{labelalpha}{Phi07}
+  \field{sortinit}{P}
+  \field{booktitle}{2007 IEEE Conference on Computer Vision and Pattern
+  Recognition}
+  \verb{doi}
+  \verb 10.1109/CVPR.2007.383172
+  \endverb
+  \field{issn}{1063-6919}
+  \field{pages}{1\bibrangedash 8}
+  \field{title}{Object retrieval with large vocabularies and fast spatial
+  matching}
+  \field{year}{2007}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{non_uniform_hist_2}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Porikli}{P.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{image processing;search problems;statistical analysis;Cartesian data
+  spaces;data dimensions;exhaustive search process;histogram extraction;image
+  retrieval;integral histogram;nonuniform bin formation;real-time search
+  process;spatial arrangement;uniform bin formation}
+  \strng{namehash}{PF1}
+  \strng{fullhash}{PF1}
+  \field{labelalpha}{Por05}
+  \field{sortinit}{P}
+  \field{booktitle}{2005 IEEE Computer Society Conference on Computer Vision
+  and Pattern Recognition (CVPR'05)}
+  \verb{doi}
+  \verb 10.1109/CVPR.2005.188
+  \endverb
+  \field{issn}{1063-6919}
+  \field{pages}{829\bibrangedash 836 vol. 1}
+  \field{title}{Integral histogram: a fast way to extract histograms in
+  Cartesian spaces}
+  \field{volume}{1}
+  \field{year}{2005}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{pca_visual}{misc}{}
+  \field{labelalpha}{Pca}
+  \field{sortinit}{P}
+  \field{title}{{Prinipal Component Analysis}}
+  \verb{url}
+  \verb http://setosa.io/ev/principal-component-analysis/
+  \endverb
+\endentry
+
+\entry{auto_cache_opt}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Rus}{R.}%
+     {Silvius}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ashok}{A.}%
+     {Raksit}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {David~Xinliang}{D.~X.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE Computer Society}%
+  }
+  \strng{namehash}{RS+1}
+  \strng{fullhash}{RSARLDX1}
+  \field{labelalpha}{Rus11}
+  \field{sortinit}{R}
+  \field{booktitle}{Proceedings of the 9th Annual IEEE/ACM International
+  Symposium on Code Generation and Optimization}
+  \field{isbn}{978-1-61284-356-8}
+  \field{pages}{181\bibrangedash 190}
+  \field{series}{CGO '11}
+  \field{title}{Automated Locality Optimization Based on the Reuse Distance of
+  String Operations}
+  \verb{url}
+  \verb http://dl.acm.org/citation.cfm?id=2190025.2190065
+  \endverb
+  \list{location}{1}{%
+    {Washington, DC, USA}%
+  }
+  \field{year}{2011}
+\endentry
+
+\entry{Sculley}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Sculley}{S.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM}%
+  }
+  \keyw{scalability, sparse solutions, unsupervised clustering}
+  \strng{namehash}{SD1}
+  \strng{fullhash}{SD1}
+  \field{labelalpha}{Scu10}
+  \field{sortinit}{S}
+  \field{booktitle}{Proceedings of the 19th International Conference on World
+  Wide Web}
+  \verb{doi}
+  \verb 10.1145/1772690.1772862
+  \endverb
+  \field{isbn}{978-1-60558-799-8}
+  \field{pages}{1177\bibrangedash 1178}
+  \field{series}{WWW '10}
+  \field{title}{Web-scale K-means Clustering}
+  \verb{url}
+  \verb http://doi.acm.org/10.1145/1772690.1772862
+  \endverb
+  \list{location}{1}{%
+    {Raleigh, North Carolina, USA}%
+  }
+  \field{year}{2010}
+  \warn{\item Can't use 'location' + 'address'}
+\endentry
+
+\entry{boost_graph}{misc}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Siek}{S.}%
+     {Jeremy}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lee}{L.}%
+     {Lie-Quan}{L.-Q.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lumsdaine}{L.}%
+     {Andrew}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SJ+1}
+  \strng{fullhash}{SJLLQLA1}
+  \field{labelalpha}{Sie00}
+  \field{sortinit}{S}
+  \field{howpublished}{http://www.boost.org/libs/graph/}
+  \field{title}{Boost Random Number Library}
+  \field{year}{2000}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{pca}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Song}{S.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Guo}{G.}%
+     {Z.}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mei}{M.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{covariance matrices;eigenvalues and eigenfunctions;face
+  recognition;feature extraction;principal component
+  analysis;transforms;computer science;covariance matrix;eigenvector;face
+  recognition;feature selection;numerical analysis;principal component
+  analysis;transform method;Databases;Face;Face recognition;Feature
+  extraction;Principal component analysis;Transforms;face recognition;feature
+  selection;principal component analysis}
+  \strng{namehash}{SF+1}
+  \strng{fullhash}{SFGZMD1}
+  \field{labelalpha}{Son10}
+  \field{sortinit}{S}
+  \field{booktitle}{System Science, Engineering Design and Manufacturing
+  Informatization (ICSEM), 2010 International Conference on}
+  \verb{doi}
+  \verb 10.1109/ICSEM.2010.14
+  \endverb
+  \field{pages}{27\bibrangedash 30}
+  \field{title}{Feature Selection Using Principal Component Analysis}
+  \field{volume}{1}
+  \field{year}{2010}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{opencv_manual}{manual}{}
+  \list{organization}{1}{%
+    {Itseez}%
+  }
+  \field{labelalpha}{Ope}
+  \field{sortinit}{T}
+  \field{edition}{2.4.9.0}
+  \field{title}{The OpenCV Reference Manual}
+  \field{year}{2014}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{welch_test}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {WELCH}{W.}%
+     {B.~L.}{B.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WBL1}
+  \strng{fullhash}{WBL1}
+  \field{labelalpha}{WEL47}
+  \field{sortinit}{W}
+  \verb{doi}
+  \verb 10.1093/biomet/34.1-2.28
+  \endverb
+  \verb{eprint}
+  \verb http://biomet.oxfordjournals.org/content/34/1-2/28.full.pdf+html
+  \endverb
+  \field{number}{1-2}
+  \field{pages}{28\bibrangedash 35}
+  \field{title}{THE GENERALIZATION OF ‘STUDENT'S’ PROBLEM WHEN SEVERAL
+  DIFFERENT POPULATION VARLANCES ARE INVOLVED}
+  \verb{url}
+  \verb http://biomet.oxfordjournals.org/content/34/1-2/28.short
+  \endverb
+  \field{volume}{34}
+  \field{journaltitle}{Biometrika}
+  \field{year}{1947}
+\endentry
+
+\entry{Zeng:2012:FAK:2354409.2354758}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Zeng}{Z.}%
+     {Gang}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE Computer Society}%
+  }
+  \keyw{Clustering algorithms,Vegetation,Image
+  retrieval,Visualization,Complexity theory,Algorithm design and
+  analysis,Instruction sets}
+  \strng{namehash}{ZG1}
+  \strng{fullhash}{ZG1}
+  \field{labelalpha}{Zen12}
+  \field{sortinit}{Z}
+  \field{booktitle}{Proceedings of the 2012 IEEE Conference on Computer Vision
+  and Pattern Recognition (CVPR)}
+  \field{isbn}{978-1-4673-1226-4}
+  \field{pages}{3037\bibrangedash 3044}
+  \field{series}{CVPR '12}
+  \field{title}{Fast Approximate K-means via Cluster Closures}
+  \verb{url}
+  \verb http://dl.acm.org/citation.cfm?id=2354409.2354758
+  \endverb
+  \list{location}{1}{%
+    {Washington, DC, USA}%
+  }
+  \field{year}{2012}
+\endentry
+
+\entry{sgd_svm}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Zhang}{Z.}%
+     {Tong}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM}%
+  }
+  \strng{namehash}{ZT1}
+  \strng{fullhash}{ZT1}
+  \field{labelalpha}{Zha04}
+  \field{sortinit}{Z}
+  \field{booktitle}{Proceedings of the Twenty-first International Conference on
+  Machine Learning}
+  \verb{doi}
+  \verb 10.1145/1015330.1015332
+  \endverb
+  \field{isbn}{1-58113-838-5}
+  \field{pages}{116\bibrangedash }
+  \field{series}{ICML '04}
+  \field{title}{Solving Large Scale Linear Prediction Problems Using Stochastic
+  Gradient Descent Algorithms}
+  \verb{url}
+  \verb http://doi.acm.org/10.1145/1015330.1015332
+  \endverb
+  \list{location}{1}{%
+    {Banff, Alberta, Canada}%
+  }
+  \field{year}{2004}
+  \warn{\item Can't use 'location' + 'address'}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

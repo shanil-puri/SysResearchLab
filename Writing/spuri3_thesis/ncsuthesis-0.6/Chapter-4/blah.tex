@@ -1,0 +1,51 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+\begin{document}
+
+\begin{algorithm}
+\caption{Screening Algorithm}
+\label{screening_algo}
+\begin{algorithmic}[1]
+\Procedure{Screening\textendash PrimaryCandidateSelection}{}
+\State $least\_distance_{rank} = MAX$
+\State $least\_distance_{range} = MAX$
+\State $dim\_distance_{rank} = 0$
+\State $dim\_distance_{range} = 0$
+\State $HD\_Rank_{selected}$
+\State $HD\_Range_{selected}$
+\For {each $HD_x$ in History Database} 
+	\For { each $Dim_i\  where\ i\  in\  1\  ..\  3\ $ }
+		\For{each  $Bucket_j$ in Top 3 Buckets($Dim_i$) in Decreasing Order of Item Count for current data set} 
+			\State 
+			\For{each  $pt_{cd}$ and $pt_{HDi}$ in points($Bucket_j$)} 
+				\State $distance_{rank}\ =\  dist(pt_{cd},\ pt_{HDi})$;
+			\EndFor
+
+			$Bucket_k$ = Bucket in $HD_i\  where\ range(bucket_k)\ \sim \  range(bucket_j)$
+			
+ 	 		\For {each  $pt_{cd}\  in\ points(Bucket_j)\ and\ pt_{HDi}\ in\ Bucket_k$ } 
+				\State $distance_{range}\ =\ dist(pt_{cd},\ pt_{HDi})$;  
+			\EndFor
+		\EndFor
+ 	 		
+		\State $dim\_distance_{rank}\  =\  dim\_distance_{rank} \ + \ distance_{rank}$
+		\State $dim\_distance_{range}\  =\  dim\_distance_{range} \ + \ distance_{range}$ 
+	\EndFor
+	\If{$dim\_distance_{rank}$ < $least\_distance_{rank}$}
+ 			\State $least\_distance_{rank}$ = $dim\_distance_{rank}$;
+			\State $HD\_Rank_{selected}\ = \ HD_x$;
+	\EndIf
+   	 
+	\If{$dim\_distance_{range}$ < $least\_distance_{range}$}
+   		\State $least\_distance_{range}\ = dim\_distance_{range}$;
+   	 	\State $HD\_Range_{selected}\ = \ HD_x$;
+	\EndIf
+\EndFor
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+
+\end{document}

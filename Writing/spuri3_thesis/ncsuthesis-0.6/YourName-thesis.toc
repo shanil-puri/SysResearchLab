@@ -1,0 +1,83 @@
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Tables}{vii}{section*.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Figures}{viii}{section*.6}
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Motivation and Background}{4}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Motivation}{4}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Background and Related Work}{5}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Important Terminology}{7}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Challenges}{9}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Data Feature Abstraction}{9}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Similarity Computation}{10}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Non Uniform Scale}{10}{subsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}Different Feature Sets: Feature Set Abstraction}{10}{subsection.3.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.3}Rotated Data}{10}{subsection.3.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Efficient and effective comparison}{11}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}How to use the historical datasets}{11}{section.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}History Reuse Architecture}{12}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Overview}{12}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}Feature Set Reduction And Normalization}{12}{subsection.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.2}Similarity Metric Calculation}{13}{subsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.3}History Storage Architecture}{13}{subsection.4.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.4}Matcher and Selector}{14}{subsection.4.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Algorithm: HRu Architecture}{14}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}Principal Component Analysis (PCA)}{15}{subsection.4.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}Histogram Generation}{15}{subsection.4.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.3}Similarity Metric Computation}{17}{subsection.4.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.4}Training Algorithm}{17}{subsection.4.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.5}Computing Best Match for Current Data-set (Run Time)}{21}{subsection.4.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Discussion}{22}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.1}Computation on Real Data and Incorrect Screening algorithm:}{22}{subsection.4.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.3.1.1}Implementation}{22}{subsubsection.4.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.3.1.2}Reasons for failure}{22}{subsubsection.4.3.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.2}Custom CPP Implementation for Welch\IeC {\textquoteright }s Test}{23}{subsection.4.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.3}Random Sampling for Order comparison.}{24}{subsection.4.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.4}Use Of PCA Data for Welch\IeC {\textquoteright }s Test and PCA data for centroid computation in Training Run:}{25}{subsection.4.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Evaluations}{26}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Methodology}{26}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Experiments}{26}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Future Work}{40}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Conclusion}{42}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{{\uppercase {Bibliography}}}{43}{chapter.7}

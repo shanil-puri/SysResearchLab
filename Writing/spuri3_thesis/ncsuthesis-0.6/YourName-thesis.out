@@ -1,0 +1,38 @@
+\BOOKMARK [0][-]{section*.5}{List of Tables}{}% 1
+\BOOKMARK [0][-]{section*.6}{List of Figures}{}% 2
+\BOOKMARK [0][-]{chapter.1}{INTRODUCTION}{}% 3
+\BOOKMARK [0][-]{chapter.2}{Motivation and Background}{}% 4
+\BOOKMARK [1][-]{section.2.1}{Motivation}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.2}{Background and Related Work}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.3}{Important Terminology}{chapter.2}% 7
+\BOOKMARK [0][-]{chapter.3}{Challenges}{}% 8
+\BOOKMARK [1][-]{section.3.1}{Data Feature Abstraction}{chapter.3}% 9
+\BOOKMARK [1][-]{section.3.2}{Similarity Computation}{chapter.3}% 10
+\BOOKMARK [2][-]{subsection.3.2.1}{Non Uniform Scale}{section.3.2}% 11
+\BOOKMARK [2][-]{subsection.3.2.2}{Different Feature Sets: Feature Set Abstraction}{section.3.2}% 12
+\BOOKMARK [2][-]{subsection.3.2.3}{Rotated Data}{section.3.2}% 13
+\BOOKMARK [1][-]{section.3.3}{Efficient and effective comparison}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.4}{How to use the historical datasets}{chapter.3}% 15
+\BOOKMARK [0][-]{chapter.4}{History Reuse Architecture}{}% 16
+\BOOKMARK [1][-]{section.4.1}{Overview}{chapter.4}% 17
+\BOOKMARK [2][-]{subsection.4.1.1}{Feature Set Reduction And Normalization}{section.4.1}% 18
+\BOOKMARK [2][-]{subsection.4.1.2}{Similarity Metric Calculation}{section.4.1}% 19
+\BOOKMARK [2][-]{subsection.4.1.3}{History Storage Architecture}{section.4.1}% 20
+\BOOKMARK [2][-]{subsection.4.1.4}{Matcher and Selector}{section.4.1}% 21
+\BOOKMARK [1][-]{section.4.2}{Algorithm: HRu Architecture}{chapter.4}% 22
+\BOOKMARK [2][-]{subsection.4.2.1}{Principal Component Analysis \(PCA\)}{section.4.2}% 23
+\BOOKMARK [2][-]{subsection.4.2.2}{Histogram Generation}{section.4.2}% 24
+\BOOKMARK [2][-]{subsection.4.2.3}{Similarity Metric Computation}{section.4.2}% 25
+\BOOKMARK [2][-]{subsection.4.2.4}{Training Algorithm}{section.4.2}% 26
+\BOOKMARK [2][-]{subsection.4.2.5}{Computing Best Match for Current Data-set \(Run Time\)}{section.4.2}% 27
+\BOOKMARK [1][-]{section.4.3}{Discussion}{chapter.4}% 28
+\BOOKMARK [2][-]{subsection.4.3.1}{Computation on Real Data and Incorrect Screening algorithm:}{section.4.3}% 29
+\BOOKMARK [2][-]{subsection.4.3.2}{Custom CPP Implementation for Welch\220s Test}{section.4.3}% 30
+\BOOKMARK [2][-]{subsection.4.3.3}{Random Sampling for Order comparison.}{section.4.3}% 31
+\BOOKMARK [2][-]{subsection.4.3.4}{Use Of PCA Data for Welch\220s Test and PCA data for centroid computation in Training Run:}{section.4.3}% 32
+\BOOKMARK [0][-]{chapter.5}{Evaluations}{}% 33
+\BOOKMARK [1][-]{section.5.1}{Methodology}{chapter.5}% 34
+\BOOKMARK [1][-]{section.5.2}{Experiments}{chapter.5}% 35
+\BOOKMARK [0][-]{chapter.6}{Future Work}{}% 36
+\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 37
+\BOOKMARK [0][-]{chapter.7}{Bibliography}{}% 38

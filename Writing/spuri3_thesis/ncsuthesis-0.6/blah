@@ -1,0 +1,111 @@
+%==================================================================
+%			SCREENING ALGORITHM	BEGIN
+% ==================================================================
+\begin{algorithm}
+\caption{Screening Algorithm}
+\label{screening_algo}
+\begin{algorithmic}[1]
+\Procedure{Screening\textendash PrimaryCandidateSelection}{}
+\State $least\_distance_{rank} = MAX$
+\State $least\_distance_{range} = MAX$
+\State $dim\_distance_{rank} = 0$
+\State $dim\_distance_{range} = 0$
+\State $HD\_Rank_{selected}$
+\State $HD\_Range_{selected}$ \State
+\ForAll {$HD_x$ in History Database} {
+	\State 
+	\ForAll {$Dim_i\  where\ i\  in\  1\  ..\  3\ $} {
+		\State 
+		\ForAll {$Bucket_j$ in Top 3 Buckets($Dim_i$) in Decreasing Order of Item Count for current data set} {
+			\State 
+			\ForAll{$pt_{cd}$ and $pt_{HDi}$ in points($Bucket_j$)} {
+				\State $distance_{rank}\ =\  dist(pt_{cd},\ pt_{HDi})$;\State 
+			}
+			\State $Bucket_k$ = Bucket in $HD_i\  where\ range(bucket_k)\ \sim \  range(bucket_j)$ \State 
+ 	 		\ForAll {$pt_{cd}\  in\ points(Bucket_j)\ and\ pt_{HDi}\ in\ Bucket_k$} {
+				\State $distance_{range}\ =\ dist(pt_{cd},\ pt_{HDi})$; \State 
+			}
+		}
+ 	 		
+		\State $dim\_distance_{rank}\  =\  dim\_distance_{rank} \ + \ distance_{rank}$
+		\State $dim\_distance_{range}\  =\  dim\_distance_{range} \ + \ distance_{range}$ \State 
+	}
+	\State \If{$dim\_distance_{rank}$ < $least\_distance_{rank}$} {
+ 			\State $least\_distance_{rank}$ = $dim\_distance_{rank}$;
+			\State $HD\_Rank_{selected}\ = \ HD_x$; \State 
+	}
+   	 
+	\State \If{$dim\_distance_{range}$ < $least\_distance_{range}$} {
+   		\State $least\_distance_{range}\ = dim\_distance_{range}$;
+   	 	\State $HD\_Range_{selected}\ = \ HD_x$; \State 
+	}
+	\State
+}
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+
+%==================================================================
+%			SCREENING ALGORITHM	END
+% %==================================================================
+
+\begin{algorithm}
+\caption{CH election algorithm}
+\label{screening_algo}
+\begin{algorithmic}[1]
+\Procedure{Screening\textendash PrimaryCandidateSelection}{}
+\State $least\_distance_{rank} = MAX$
+\State $least\_distance_{range} = MAX$
+\State $dim\_distance_{rank} = 0$
+\State $dim\_distance_{range} = 0$
+\State $HD\_Rank_{selected}$
+\State $HD\_Range_{selected}$ \State
+
+\For{all $HD_x$ in History Database }{
+\State\For{all $ Dim_i\  where\ i\  in\  1\  ..\  3$ }	{
+\State	\For {all $Bucket_j$ in Top 3 Buckets($Dim_i$) in Decreasing Order of Item Count for current data set}{
+			
+\State	\For{all $pt_{cd}$ and $pt_{HDi}$ in $points(Bucket_j)$}{
+						\State $distance_{rank}\ =\  dist(pt_{cd},\ pt_{HDi})$;\State
+			}%\EndFor
+			
+			\State $Bucket_k$ = Bucket in $HD_i\  where\ range(bucket_k)\ \sim \  range(bucket_j)$
+
+\State			\For {each $pt_{cd}\  in\ points(Bucket_j)\ and\ pt_{HDi}\ in\ Bucket_k$}{
+						\State $distance_{range}\ =\ dist(pt_{cd},\ pt_{HDi})$; 
+}%\State			\End}%For
+
+}%\State		\EndFor
+		
+		\State $dim\_distance_{rank}\  =\  dim\_distance_{rank} \ + \ distance_{rank}$
+		\State $dim\_distance_{range}\  =\  dim\_distance_{range} \ + \ distance_{range}$ \State 
+}%	\EndFor
+	
+	\If{$dim\_distance_{rank}$ < $least\_distance_{rank}$}{
+		\State $least\_distance_{rank}$ = $dim\_distance_{rank}$;
+		\State $HD\_Rank_{selected}\ = \ HD_x$; \State 
+	}%\EndIf
+	
+	\If{$dim\_distance_{range}$ < $least\_distance_{range}$} {
+   		\State $least\_distance_{range}\ = dim\_distance_{range}$;
+   	 	\State $HD\_Range_{selected}\ = \ HD_x$; \State 
+   	 }%\EndIf
+}%\EndFor
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}
+\caption{CH election algorithm}
+\label{CHalgorithm}
+\begin{algorithmic}[1]
+\Procedure{CH\textendash Election}{}\State 
+\For{each node $i$ \Pisymbol{psy}{206} $N$ } \State 
+	Broadcast HELLO message to its neighbor \State 
+	let $k$ \Pisymbol{psy}{206} $N1$ ($i$) U {$i$} be s.t \State 
+	QOS($k$) = max {QOS($j$) \textbar $j$ \Pisymbol{psy}{206} $N1$($i$)  U $i$} \State 
+	MPRSet($i$) = $k$ \State 
+\EndFor
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}

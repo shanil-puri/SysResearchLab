@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: vldb_sample.aux
+The style file: abbrv.bst
+Database file #1: vldb_sample.bib
+Warning--empty year in drake
+Warning--can't use both volume and number fields in kmeans_orig
+Warning--empty publisher in kmeans_orig
+You've used 29 entries,
+            2118 wiz_defined-function locations,
+            683 strings with 8811 characters,
+and the built_in function-call counts, 10688 in all, are:
+= -- 1095
+> -- 396
+< -- 16
++ -- 159
+- -- 128
+* -- 707
+:= -- 1627
+add.period$ -- 91
+call.type$ -- 29
+change.case$ -- 151
+chr.to.int$ -- 0
+cite$ -- 32
+duplicate$ -- 457
+empty$ -- 903
+format.name$ -- 128
+if$ -- 2376
+int.to.chr$ -- 0
+int.to.str$ -- 29
+missing$ -- 25
+newline$ -- 143
+num.names$ -- 56
+pop$ -- 172
+preamble$ -- 1
+purify$ -- 123
+quote$ -- 0
+skip$ -- 372
+stack$ -- 0
+substring$ -- 722
+swap$ -- 154
+text.length$ -- 16
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 114
+warning$ -- 3
+while$ -- 103
+width$ -- 31
+write$ -- 329
+(There were 3 warnings)

@@ -1,0 +1,174 @@
+\begin{thebibliography}{10}
+
+\bibitem{kmeans++}
+D.~Arthur and S.~Vassilvitskii.
+\newblock K-means++: The advantages of careful seeding.
+\newblock In {\em Proceedings of the Eighteenth Annual ACM-SIAM Symposium on
+  Discrete Algorithms}, SODA '07, pages 1027--1035, Philadelphia, PA, USA,
+  2007. Society for Industrial and Applied Mathematics.
+
+\bibitem{kmens_parellel}
+B.~Bahmani, B.~Moseley, A.~Vattani, R.~Kumar, and S.~Vassilvitskii.
+\newblock Scalable k-means++.
+\newblock {\em Proc. VLDB Endow.}, 5(7):622--633, Mar. 2012.
+
+\bibitem{load_reuse_proceeding}
+R.~Bod\'{\i}k, R.~Gupta, and M.~L. Soffa.
+\newblock Load-reuse analysis: Design and evaluation.
+\newblock In {\em Proceedings of the ACM SIGPLAN 1999 Conference on Programming
+  Language Design and Implementation}, PLDI '99, pages 64--76, New York, NY,
+  USA, 1999. ACM.
+
+\bibitem{load_reuse_proceeding_article}
+R.~Bod\'{\i}k, R.~Gupta, and M.~L. Soffa.
+\newblock Load-reuse analysis: Design and evaluation.
+\newblock {\em SIGPLAN Not.}, 34(5):64--76, May 1999.
+
+\bibitem{opencv_library}
+G.~Bradski.
+\newblock Opencv library.
+\newblock {\em Dr. Dobb's Journal of Software Tools}, 2000.
+
+\bibitem{approx_meth}
+A.~Czumaj and C.~Sohler.
+\newblock Sublinear-time approximation algorithms for clustering via random
+  sampling.
+\newblock {\em Random Structures \& Algorithms}, 30(1-2):226--256, 2007.
+
+\bibitem{Czumaj}
+A.~Czumaj and C.~Sohler.
+\newblock Sublinear-time approximation algorithms for clustering via random
+  sampling.
+\newblock {\em Random Struct. Algorithms}, 30(1-2):257--286, Jan. 2007.
+
+\bibitem{non_uniform_hist_1}
+L.~Devroye.
+\newblock Sample-based non-uniform random variate generation.
+\newblock In {\em Proceedings of the 18th Conference on Winter Simulation}, WSC
+  '86, pages 260--265, New York, NY, USA, 1986. ACM.
+
+\bibitem{yinyang_kmeans}
+Y.~Ding, Y.~Zhao, X.~Shen, M.~Musuvathi, and T.~Mytkowicz.
+\newblock Yinyang k-means: A drop-in replacement of the classic k-means with
+  consistent speedup.
+\newblock In D.~Blei and F.~Bach, editors, {\em Proceedings of the 32nd
+  International Conference on Machine Learning (ICML-15)}, pages 579--587. JMLR
+  Workshop and Conference Proceedings, 2015.
+
+\bibitem{drake}
+J.~Drake and G.~Hamerly.
+\newblock Accelerated k-means with adaptive distance bounds.
+\newblock In {\em in 5th NIPS Workshop on Optimization for Machine Learning.
+  Dec 8th, 2012. Lake Tahoe}.
+
+\bibitem{Elkan03usingthe}
+C.~Elkan.
+\newblock Using the triangle inequality to accelerate k-means, 2003.
+
+\bibitem{Guha:1998:CEC:276305.276312}
+S.~Guha, R.~Rastogi, and K.~Shim.
+\newblock Cure: An efficient clustering algorithm for large databases.
+\newblock {\em SIGMOD Rec.}, 27(2):73--84, June 1998.
+
+\bibitem{locality_block_reuse}
+J.~Huang and D.~J. Lilja.
+\newblock Exploiting basic block value locality with block reuse.
+\newblock In {\em High-Performance Computer Architecture, 1999. Proceedings.
+  Fifth International Symposium On}, pages 106--114, Jan 1999.
+
+\bibitem{value_reuse_extended}
+J.~Huang and D.~J. Lilja.
+\newblock Extending value reuse to basic blocks with compiler support.
+\newblock {\em IEEE Transactions on Computers}, 49(4):331--347, Apr 2000.
+
+\bibitem{opencv_manual}
+Itseez.
+\newblock {\em The OpenCV Reference Manual}, 2.4.9.0 edition, April 2014.
+
+\bibitem{Kanungo:2002:EKC:628329.628801}
+T.~Kanungo, D.~M. Mount, N.~S. Netanyahu, C.~D. Piatko, R.~Silverman, and A.~Y.
+  Wu.
+\newblock An efficient k-means clustering algorithm: Analysis and
+  implementation.
+\newblock {\em IEEE Trans. Pattern Anal. Mach. Intell.}, 24(7):881--892, July
+  2002.
+
+\bibitem{uci_machine_repo}
+M.~Lichman.
+\newblock {UCI} machine learning repository, 2013.
+
+\bibitem{kmeans_orig}
+S.~P. Lloyd.
+\newblock {\em {Least squares quantization in PCM}}, volume~28.
+\newblock 1982.
+
+\bibitem{pca_visual}
+{Prinipal Component Analysis}.
+
+\bibitem{Pelleg:1999:AEK:312129.312248}
+D.~Pelleg and A.~Moore.
+\newblock Accelerating exact k-means algorithms with geometric reasoning.
+\newblock In {\em Proceedings of the Fifth ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}, KDD '99, pages 277--281, New York,
+  NY, USA, 1999. ACM.
+
+\bibitem{4270197}
+J.~Philbin, O.~Chum, M.~Isard, J.~Sivic, and A.~Zisserman.
+\newblock Object retrieval with large vocabularies and fast spatial matching.
+\newblock In {\em 2007 IEEE Conference on Computer Vision and Pattern
+  Recognition}, pages 1--8, June 2007.
+
+\bibitem{non_uniform_hist_2}
+F.~Porikli.
+\newblock Integral histogram: a fast way to extract histograms in cartesian
+  spaces.
+\newblock In {\em 2005 IEEE Computer Society Conference on Computer Vision and
+  Pattern Recognition (CVPR'05)}, volume~1, pages 829--836 vol. 1, June 2005.
+
+\bibitem{auto_cache_opt}
+S.~Rus, R.~Ashok, and D.~X. Li.
+\newblock Automated locality optimization based on the reuse distance of string
+  operations.
+\newblock In {\em Proceedings of the 9th Annual IEEE/ACM International
+  Symposium on Code Generation and Optimization}, CGO '11, pages 181--190,
+  Washington, DC, USA, 2011. IEEE Computer Society.
+
+\bibitem{Sculley}
+D.~Sculley.
+\newblock Web-scale k-means clustering.
+\newblock In {\em Proceedings of the 19th International Conference on World
+  Wide Web}, WWW '10, pages 1177--1178, New York, NY, USA, 2010. ACM.
+
+\bibitem{boost_graph}
+J.~Siek, L.-Q. Lee, and A.~Lumsdaine.
+\newblock Boost random number library.
+\newblock http://www.boost.org/libs/graph/, June 2000.
+
+\bibitem{pca}
+F.~Song, Z.~Guo, and D.~Mei.
+\newblock Feature selection using principal component analysis.
+\newblock In {\em System Science, Engineering Design and Manufacturing
+  Informatization (ICSEM), 2010 International Conference on}, volume~1, pages
+  27--30, Nov 2010.
+
+\bibitem{welch_test}
+B.~L. WELCH.
+\newblock The generalization of ‘student's’ problem when several different
+  population varlances are involved.
+\newblock {\em Biometrika}, 34(1-2):28--35, 1947.
+
+\bibitem{Zeng:2012:FAK:2354409.2354758}
+G.~Zeng.
+\newblock Fast approximate k-means via cluster closures.
+\newblock In {\em Proceedings of the 2012 IEEE Conference on Computer Vision
+  and Pattern Recognition (CVPR)}, CVPR '12, pages 3037--3044, Washington, DC,
+  USA, 2012. IEEE Computer Society.
+
+\bibitem{sgd_svm}
+T.~Zhang.
+\newblock Solving large scale linear prediction problems using stochastic
+  gradient descent algorithms.
+\newblock In {\em Proceedings of the Twenty-first International Conference on
+  Machine Learning}, ICML '04, pages 116--, New York, NY, USA, 2004. ACM.
+
+\end{thebibliography}

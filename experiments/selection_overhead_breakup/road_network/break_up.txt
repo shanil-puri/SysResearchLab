@@ -1,0 +1,16 @@
+Parent Dataset PCA Projection and Histogram generation:	2402
+
+Best Match screen using histograms for comparison:	2252
+
+Final selection using Welch's Test:	2715
+
+
+
+######################################################################################################
+
+
+Total overhead : 7442
+
+
+
+######################################################################################################
