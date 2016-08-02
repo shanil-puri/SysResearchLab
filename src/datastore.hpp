@@ -179,7 +179,7 @@ cv::PCA dataDb::PCA_dim_reduction(cv::Mat data)
     // gettimeofday(&tempo, NULL);
     //###################### BENCHMARKING CODE ##############################
     
-    cv::PCA pca(data, cv::Mat(), CV_PCA_DATA_AS_ROW, 1);
+    cv::PCA pca(data, cv::Mat(), CV_PCA_DATA_AS_ROW, DIMENSIONALITY);
     
      //###################### BENCHMARKING CODE ##############################
     // gettimeofday(&tempo1, NULL);
@@ -480,6 +480,7 @@ size_t dataDb::rank_runt_time_data_set(dataDb *parent)
     //###################### BENCHMARKING CODE ##############################
     gettimeofday(&tempo, NULL);
     //###################### BENCHMARKING CODE ##############################
+    parent->pca = dataDb::PCA_dim_reduction((parent)->data);
     parent->currSelfProj = parent->pca.project(parent->data);
     parent->PCA_bin_data_pts = dataDb::PCA_bin_data( parent->currSelfProj, parent->PCA_bin_population, parent->PCA_bin_lims );
 
