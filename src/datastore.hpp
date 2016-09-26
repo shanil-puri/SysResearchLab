@@ -231,6 +231,8 @@ int dataDb::readDataStore(string filePath, dataDb *store, size_t ctr)
 
     while(std::getline(file, numStream))
     {
+        std::size_t found = numStream.find_first_of(" ");       
+        //numStream.erase(0, found);
         // Read the file line wise and generate a 2D cv::Mat. This will be used in PCA computation.
         std::istringstream buffer(numStream);
         std::vector<float> line((std::istream_iterator<float>(buffer)),
@@ -452,7 +454,6 @@ std::map<size_t, cv::Mat > dataDb::PCA_bin_data(const cv::Mat pca_data, std::map
     return _bin_data;
 }
 
-// cv::Mat dataDb::rank_runt_time_data_set(dataDb *parent)
 size_t dataDb::rank_runt_time_data_set(dataDb *parent)
 {
     //###################### BENCHMARKING CODE ##############################
@@ -548,8 +549,15 @@ size_t dataDb::rank_runt_time_data_set(dataDb *parent)
                         _ch_data_pt_in_c2 = 0;
                     }                    
 
-                    eigenDiff_c1 += fabs(pow(parent->PCA_bin_data_pts[_parent_bin_index].at<float>(0, _data_pt_in), 2) - pow((*childIter)->PCA_bin_data_pts[_child_bin_index_c1].at<float>(0, _ch_data_pt_in_c1++),2));
-                    eigenDiff_c2 += fabs(pow(parent->PCA_bin_data_pts[_parent_bin_index].at<float>(0, _data_pt_in), 2) - pow((*childIter)->PCA_bin_data_pts[_child_bin_index_c2].at<float>(0, _ch_data_pt_in_c2++),2));
+                    for(
+                         int l = 0;
+                         (l < parent->PCA_bin_data_pts[_parent_bin_index].cols && l < (*childIter)->PCA_bin_data_pts[_child_bin_index_c1].rows);
+                         l++
+                        )
+                    {
+                        eigenDiff_c1 += fabs(pow(parent->PCA_bin_data_pts[_parent_bin_index].at<float>(l, _data_pt_in), 2) - pow((*childIter)->PCA_bin_data_pts[_child_bin_index_c1].at<float>(l, _ch_data_pt_in_c1++),2));
+                        eigenDiff_c2 += fabs(pow(parent->PCA_bin_data_pts[_parent_bin_index].at<float>(l, _data_pt_in), 2) - pow((*childIter)->PCA_bin_data_pts[_child_bin_index_c2].at<float>(l, _ch_data_pt_in_c2++),2));
+                    }
                 }
             }
 

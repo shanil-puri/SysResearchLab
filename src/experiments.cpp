@@ -284,7 +284,7 @@ void test_gas_source_data()
 
                 dataStore_test.clear();
                 dataStore_test.push_back(dataStoreHash[i]);
-                // trainDataSet(dir, cluster_sizes[k]);
+                trainDataSet(dir, cluster_sizes[k]);
 
                 cout << "\n\n############################################################################################\n";
                 cout << "now running kmeans with Random Intiailizing :";
